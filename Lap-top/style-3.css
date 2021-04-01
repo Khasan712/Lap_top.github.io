@@ -1,0 +1,85 @@
+.section-3 {
+	background-attachment: fixed;
+	background-image: url(image/craeative.jpg);
+	width: 100%;
+	height: 50vh;
+	background-size: cover;
+	border: 1vw solid rgba(57, 75, 133, 0.8);
+}
+
+
+
+
+
+.footer {
+	width: 100%;
+	height: 80vh;
+	background-color: white;
+	border-bottom: 1vw solid rgba(57, 75, 133, 0.9);
+}
+
+.footer .get-in {
+	width: 50vw;
+	height: 40vh;
+	margin: 0 auto;
+	position: relative;
+	top: 20vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.footer .get-in h2 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+	font-size: 2.5vw;
+	position: relative;
+	bottom: 1vh;
+}
+.footer .get-in p {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+	font-size: 1.2vw;
+	border-top: 0.1vw solid darkorange;
+	padding-top: 2vh;
+	color: #969696;
+}
+.footer .get-in .contact {
+	display: flex;
+	position: relative;
+	top: 5vh;
+}
+.footer .get-in .contact .contact-tel {
+	float: left;
+	width: 30vw;
+	height: 30vh;
+}
+.footer .get-in .contact .contact-tel i {
+	display: block;
+	font-size: 3.5vw;
+	margin-bottom: 2vh;
+	color: #969696;
+}
+.footer .get-in .contact .contact-tel a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.3vw;
+}
+
+
+
+.footer .get-in .contact .contact-mail {
+	float: right;
+	width: 30vw;
+	height: 30vh;
+}
+.footer .get-in .contact .contact-mail i {
+	display: block;
+	font-size: 3.5vw;
+	margin-bottom: 2vh;
+	color: #969696;
+}
+.footer .get-in .contact .contact-mail a {
+	text-decoration: none;
+	color: #91000c;
+	font-size: 1.3vw;
+}

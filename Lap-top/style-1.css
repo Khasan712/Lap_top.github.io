@@ -1,0 +1,56 @@
+.section-1 {
+	width: 100%;
+	height: 80vh;
+	background: linear-gradient(rgba(11, 0, 71, 0.87), rgba(0, 110, 255, 0.534));
+	
+}
+.count {
+	width: 70vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 20vh;
+}
+.count .center-content {
+	position: relative;
+	width: 25vw;
+	height: 40vh;
+	margin: 0 1vw;
+	box-shadow: 0vh 0vh 0.5vw 0.2vh rgba(255, 255, 255, 0.7);
+	border-radius: 0.5vw;
+	background-color: rgba(32, 19, 82, 0.2);
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 0.1vw solid #fff;
+	border-left: 0.1vw solid #fff;
+	backdrop-filter: blur(1vw);
+}
+
+.count .center-content .card-content {
+	text-align: center;
+}
+.count .center-content .card-content .card-1-content{
+	padding: 0 1vw;
+	text-align: center;
+	transform: translateY(20vh);
+	opacity: 0;
+	transition: 0.5s;
+}
+.count .center-content:hover {
+	box-shadow: 0vh 0vh 0.5vw 0.5vh rgba(255, 136, 0, 0.479);
+}
+
+.count .center-content:hover .card-content .card-1-content{
+	transform: translateY(0vh);
+	opacity: 1;
+}
+.count .center-content .card-content i {
+	font-size: 5vw;
+	position: relative;
+	display: inline-block;
+	color: #5d0080;
+}
